@@ -134,4 +134,12 @@ To safely deploy this model in an enterprise application, the following defensiv
 3. **Output Filtering & PII Scanners:** Utilize regex and named-entity recognition (NER) tools at the application gateway to drop responses containing sensitive data or malicious code blocks.
 
 ---
+
+## ⚖️ Framework Compliance & Standard Mapping
+The evaluation framework was automatically mapped against global adversarial standards to ensure industry compliance:
+* **MITRE ATLAS Alignment:** Evaluated across categories including Unauthorized Commitments, Cybercrime, Malicious Code, and Hallucination vectors.
+* **NIST AI RMF Mapping:** Tracked 33 critical risk metrics for safety-critical deployment thresholds.
+* **OWASP Application Security:** Intersected with LLM-specific core boundary parameters.
+
+---
 *Developed as an Offensive AI Security Project for global technical outreach.*
