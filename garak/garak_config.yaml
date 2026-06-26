@@ -1,0 +1,10 @@
+---
+plugins:
+  model_type: ollama
+  model_name: llama3.2:1b
+  probe_spec: promptinject,dan,continuation,malwaregen
+
+run:
+  generations: 5
+  parallel_requests: 1
+  report_prefix: reports/garak_reproducible_scan
